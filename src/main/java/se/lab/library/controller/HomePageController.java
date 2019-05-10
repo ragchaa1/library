@@ -9,4 +9,9 @@ public class HomePageController {
     public String displayHomePage(){
         return "home/index";
     }
+
+    @GetMapping(value = {"/elibrary/about"})
+    public String displayAboutPage(){
+        return "home/about";
+    }
 }
